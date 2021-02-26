@@ -1,7 +1,11 @@
 function ContactDetails(props) {
-    return <span> 
-            <h2>{props.phone}</h2>
-            <h2>{props.email}</h2>
+    const style={
+      border: '1px #FFF solid',
+      padding: '10px',
+      backgroundColor: '#333'
+    }
+    return <span style={style}> 
+            <h4>Phone: {props.phone} | Email: {props.email}</h4>
           </span>
     ;
 }
