@@ -13,6 +13,8 @@ class App extends React.Component{
       areContactsFetched: false
     }
   }
+
+  // Adding a new commment but I didnt switch branches yet!
   componentDidMount() {
     let myTestDataAPi = fetch("http://localhost:3000/testdata")
       .then((results) => {
