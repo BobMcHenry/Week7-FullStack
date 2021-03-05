@@ -3,7 +3,7 @@ import ContactDetails from './components/ContactDetails';
 import ContactsList from './components/ContactsList';
 import React, { Component } from 'react';
 
-
+// Remove this change later
 class App extends React.Component{
   constructor(props){
     super(props);
