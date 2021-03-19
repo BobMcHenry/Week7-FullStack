@@ -1,4 +1,5 @@
 #Setup instructions
+add a conflict
 - See script in `./db/db_setup.sql`
 - Setup the DB tables and test data
 - - Run the dbsetup script `./db/db_setup.sql
