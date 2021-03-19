@@ -1,4 +1,5 @@
 #Setup instructions
+- See script in `./db/db_setup.sql`
 - Setup the DB tables and test data
 - - Run the dbsetup script `./db/db_setup.sql
 - - See line 4 in the `./api/routes/testdata.js` route file and update the path to your credential files. 
